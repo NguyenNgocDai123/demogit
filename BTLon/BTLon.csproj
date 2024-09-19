@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A0381D3-3CC1-4D2E-9B29-6FA5B2EDB0AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BTLon</RootNamespace>
+    <AssemblyName>BTLon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="QuanLyDiemDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyDiemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyDiemDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyDiemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="XuLy.cs" />
+    <Compile Include="frmBangDiemChiTiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBangDiemChiTiet.Designer.cs">
+      <DependentUpon>frmBangDiemChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThongTinHeThong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongTinHeThong.Designer.cs">
+      <DependentUpon>frmThongTinHeThong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonDiemHP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonDiemHP.Designer.cs">
+      <DependentUpon>frmMonDiemHP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLopSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLopSinhVien.Designer.cs">
+      <DependentUpon>frmLopSinhVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaim.Designer.cs">
+      <DependentUpon>frmMaim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLD.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLD.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyDiemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyDiemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyDiemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyDiemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyDiemDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyDiemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmBangDiemChiTiet.resx">
+      <DependentUpon>frmBangDiemChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMonDiemHP.resx">
+      <DependentUpon>frmMonDiemHP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLopSinhVien.resx">
+      <DependentUpon>frmLopSinhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaim.resx">
+      <DependentUpon>frmMaim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongTinHeThong.resx">
+      <DependentUpon>frmThongTinHeThong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QLD.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QLD.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLD.dbml.layout">
+      <DependentUpon>QLD.dbml</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet.xsc">
+      <DependentUpon>QuanLyDiemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyDiemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyDiemDataSet.xss">
+      <DependentUpon>QuanLyDiemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet1.xsc">
+      <DependentUpon>QuanLyDiemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyDiemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyDiemDataSet1.xss">
+      <DependentUpon>QuanLyDiemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet2.xsc">
+      <DependentUpon>QuanLyDiemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyDiemDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyDiemDataSet2.xss">
+      <DependentUpon>QuanLyDiemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet3.xsc">
+      <DependentUpon>QuanLyDiemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyDiemDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyDiemDataSet3.xss">
+      <DependentUpon>QuanLyDiemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet4.xsc">
+      <DependentUpon>QuanLyDiemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QuanLyDiemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuanLyDiemDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyDiemDataSet4.xss">
+      <DependentUpon>QuanLyDiemDataSet4.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,17 @@
+D:\Thuc hanh c#\BTLon\BTLon\bin\Debug\BTLon.exe.config
+D:\Thuc hanh c#\BTLon\BTLon\bin\Debug\BTLon.exe
+D:\Thuc hanh c#\BTLon\BTLon\bin\Debug\BTLon.pdb
+D:\Thuc hanh c#\BTLon\BTLon\bin\Debug\DevComponents.DotNetBar2.dll
+D:\Thuc hanh c#\BTLon\BTLon\bin\Debug\DevComponents.DotNetBar2.xml
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.csproj.AssemblyReference.cache
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.frmMaim.resources
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.Properties.Resources.resources
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.csproj.GenerateResource.cache
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.csproj.CoreCompileInputs.cache
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.csproj.CopyComplete
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.exe
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.pdb
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.frmLopSinhVien.resources
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.frmMonDiemHP.resources
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.frmThongTinHeThong.resources
+D:\Thuc hanh c#\BTLon\BTLon\obj\Debug\BTLon.frmBangDiemChiTiet.resources
